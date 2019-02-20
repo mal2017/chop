@@ -1,0 +1,22 @@
+Package: chop
+Type: Package
+Title: Annotates regions by their proximity to genes in GO Terms.
+Version: 0.0.9999
+Author: Matt Lawlor
+Maintainer: Matt Lawlor <matt.a.lawlor@gmail.com>
+Description: Another way of annotating RangedSummarizedExperiments for the chromVAR workflow.
+License: MIT
+Encoding: UTF-8
+LazyData: true
+Depends: 
+  R (>= 3.4.0),
+  magrittr,
+  Matrix,
+  Organism.dplyr,
+  org.Hs.eg.db,
+  GenomicRanges,
+  tidyverse,
+Imports:
+  foreach,
+  doParallel
+RoxygenNote: 6.0.1.9000
